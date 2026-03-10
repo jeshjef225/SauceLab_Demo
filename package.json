@@ -1,0 +1,12 @@
+{
+  "name": "saucedemo-playwright-tests",
+  "version": "1.0.0",
+  "description": "Playwright TypeScript tests for SauceDemo login scenarios",
+  "scripts": {
+    "test": "npx playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.43.1",
+    "typescript": "^5.0.0"
+  }
+}
