@@ -1,0 +1,17 @@
+{
+  "name": "saucedemo-bdd-playwright",
+  "version": "1.0.0",
+  "description": "BDD Cucumber Playwright automation for SauceDemo login scenarios",
+  "scripts": {
+    "test": "cucumber-js --require-module ts-node/register --require features/support/*.ts --require step-definitions/**/*.ts --format json:reports/cucumber_report.json",
+    "report": "node reports/generate-html-report.js"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.0.0",
+    "@types/node": "^20.0.0",
+    "cucumber-html-reporter": "^6.0.0",
+    "playwright": "^1.43.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.0"
+  }
+}
