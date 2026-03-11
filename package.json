@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "BDD Cucumber Playwright automation for SauceDemo login scenarios",
   "scripts": {
-    "test": "cucumber-js features/*.feature --require-module ts-node/register --require support/*.ts --require step-definitions/**/*.ts --format json:reports/cucumber_report.json",
+    "test": "cucumber-js features/*.feature --require-module ts-node/register --require support/world.ts --require support/hooks.ts --require step-definitions/**/*.ts --format json:reports/cucumber_report.json",
     "report": "node reports/generate-html-report.js"
   },
   "devDependencies": {
