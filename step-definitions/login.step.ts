@@ -12,7 +12,7 @@ When(
   'I login with username {string} and password {string}',
   async function (this: CustomWorld, username: string, password: string) {
     await this.page.fill('[data-test="username"]', username);
-    await this.page.fill('[data-test="password"]', password);
+    await this.page.fill('[data-test="passwords"]', password);
     await this.page.click('[data-test="login-button"]');
   }
 );
