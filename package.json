@@ -7,11 +7,11 @@
     "report": "node reports/generate-html-report.js"
   },
   "devDependencies": {
+    "@playwright/test": "^1.43.1",
     "@cucumber/cucumber": "^10.0.0",
-    "@types/node": "^20.0.0",
-    "cucumber-html-reporter": "^6.0.0",
-    "playwright": "^1.43.1",
+    "typescript": "^5.0.0",
     "ts-node": "^10.9.1",
-    "typescript": "^5.0.0"
+    "cucumber-html-reporter": "^6.0.0",
+    "@types/node": "^20.0.0"
   }
 }
